@@ -7,7 +7,7 @@ body {
     color: #000000;
     background: #EEEEEE;
     font: 1.1em "Times New Roman";
-    line-height: 1.2;
+    line-height: 1.1;
     margin: 40px 0;
 }
 #resume {
@@ -30,7 +30,7 @@ h1 {
 h2 {
     border-bottom: 1px solid #000000;
     text-transform: uppercase;
-    font-size: 130%;
+    font-size: 120%;
     margin: 1em 0 0 0;
     padding: 0;
 }
@@ -123,7 +123,7 @@ h2 + ul > li:first-child {
     /* Change margins and paper size of PDF */
     /* https://developer.mozilla.org/en-US/docs/Web/CSS/@page */
     size: letter;
-    margin: 0.5in 0.8in;
+    margin: 0.3in 0.5in;
 }
 @media screen and (max-width: 800px) {
     body {
@@ -147,92 +147,76 @@ h2 + ul > li:first-child {
 <body>
 <div id="resume">
 <!-- The (first) h1 will be used as the <title> of the HTML page -->
+
 <h1>Tanvir Singh</h1>
 <!-- Additional job role information -->
 
-<h1><span style="font-size:18px;"> Fullstack Engineer</span></h1>
+<h1><span style="font-size:18px;">Software Developer</span></h1>
 <!-- The unordered list immediately after the h1 will be formatted on a single line.
 It is intended to be used for contact details -->
+
 <ul>
 <li><a href="mailto:singhtanvir032@gmail.com">singhtanvir032@gmail.com</a></li>
-<li><a href="http://tanvirsingh.io">tanvirsingh.io</a></li>
+<li><a href="http://www.tanvirsingh.io">tanvirsingh.io</a></li>
 <li><a href="https://www.linkedin.com/in/tanvir-singh-b21032236/">LinkedIn</a></li>
 <li>+918427110942</li>
 <li>Ludhiana, India</li>
 </ul>
-<h2>Experience</h2>
-<h3><span>Fullstack Engineer at Auribises Technologies</span> <span>Jan 2023 - Present</span></h3>
+<h2>Professional Experience</h2>
+<h3><span>Fullstack Developer | Auribises Technologies </span> <span>Jan 2023 - Present</span></h3>
 <ul>
+<li>Developed robust and efficient <strong>REST APIs</strong> in <strong>Go</strong>, ensuring high performance and scalability.</li>
+<li><strong>Dockerized</strong> applications to ensure consistency across different environments and simplify <strong>deployment</strong>, resulting in improved portability and resource utilization.</li>
+<li>Successfully transitioned manual deployment procedures to streamlined automated processes using <strong>Jenkins</strong>, <strong>Docker</strong>, and <strong>CI/CD</strong> methodologies and enhanced overall development efficiency.</li>
+<li>Successfully integrated a <strong>Redis</strong> based in-memory <strong>database</strong>, resulting in low processing times.</li>
 <li>Developed tools and automation script in <strong>NodeJS</strong> for data management in <strong>Firebase</strong> for internal company use.</li>
-<li>Trained associates and interns in <strong>Angular</strong> and <strong>NodeJS</strong> through collaborative communication to better harbor productivity.</li>
 <li>Developed <strong>Angular</strong> based applications using shared codebases with other team members to fulfill client requirements.</li>
-<li>Integrated <strong>WhatsApp API</strong> with our <strong>Angular</strong> applications, providing a comprehensive messaging solution for over 1,000 users. This integration enhanced communication capabilities and enriched user experiences.</li>
-<li>Developed robust and efficient <strong>REST APIs</strong> in <strong>Go</strong>, ensuring high performance and scalability. These APIs formed the core of our applications and facilitated seamless communication between various components.</li>
-<li>Utilized <strong>agile methodologies</strong> in project development, including planning sessions, stand-ups, and retrospectives, to drive iterative software development and continuous improvement for the team.</li>
-<li>Dockerized applications to ensure consistency across different environments and simplify deployment, resulting in improved portability and resource utilization.</li>
-<li>Managed Linux servers for deployment purposes, ensuring stability, security, and optimal performance. Proactively resolved server-related issues to minimize downtime.</li>
-<li>Successfully transitioned manual deployment procedures to streamlined automated processes using <strong>Jenkins</strong>, <strong>Docker</strong>, and <strong>CI/CD</strong> methodologies. This enhancement significantly reduced deployment times and enhanced overall development efficiency.</li>
+<li>Integrated <strong>WhatsApp API</strong> with our <strong>Angular</strong> applications.</li>
+<li>Managed <strong>Linux</strong> servers for deployment purposes, ensuring stability, security, and optimal performance. Proactively resolved server-related issues to minimize downtime.</li>
 </ul>
+<h2>Education</h2>
+<h3>Bachelor of Technology - Electronics and Communication Engineering <span>(2020-2024)</span></h3>
+<p><strong><em>Guru Nanak Dev Engineering College, Punjab, India</em></strong></p>
+<h3>Class 11th &amp; 12th - Science Major (Physics, Chemistry, Maths) <span>(2018-2020)</span></h3>
+<p><strong><em>Guru Nanak Public School, Punjab, India</em></strong></p>
 <h2>Skills</h2>
 <ul>
 <li>
 <p><strong>Languages:</strong> Java, JavaScript, Typescript, Python, Go, SQL, HTML, CSS</p>
 </li>
 <li>
-<p><strong>Frontend:</strong> ReactJS, NextJS, Angular</p>
+<p><strong>Frameworks and Database:</strong> ReactJS, NextJS, Angular, NodeJS, ExpressJS, Spring Boot, PostgreSQL, Firestore, MongoDB</p>
 </li>
 <li>
-<p><strong>Backend:</strong> NodeJS, ExpressJS, Spring Boot, MongoDB, PostgreSQL, MySQL, Firestore, Redis, JUnit</p>
-</li>
-<li>
-<p><strong>Developer Technologies:</strong> Git, GitHub, Docker, Kubernetes, Linux, Shell, CI/CD, Jenkins, Bash, VSCode, IntelliJ Idea, Pycharm, Vim, Nano</p>
-</li>
-<li>
-<p><strong>Cloud Platforms:</strong> AWS, Google Cloud Platform, Google Firebase, Vercel</p>
+<p><strong>DevOps:</strong> Git, GitHub, AWS, GCP, Docker, Linux, Ubuntu, Shell, CI/CD, Jenkins, Bash, Vim, Nano, Redis</p>
 </li>
 </ul>
-<h2>Projects</h2>
-<h3>Shmooze | Realtime Chat App <a href="https://shmooze.tanvirsingh.io/signin">Visit Link</a></h3>
-<p>Shmooze is a real-time chat application that can be used as an alternative to apps like WhatsApp and Telegram.</p>
-<p>Key Points:</p>
-<ul>
-<li><strong>WebSockets</strong> used for real-time communication.</li>
-<li><strong>JWT</strong> based Auth service with password <strong>hashing</strong>.</li>
-<li><strong>Tech Stack - JavaScript, HTML, ReactJS, NodeJS, ExpressJS, Axios, Socket.io, MongoDB, VSCode, Vercel</strong></li>
-</ul>
+<h2>Personal Projects</h2>
 <h3>DataMax Drive Share | File Sharing Platform <a href="https://github.com/TanvirSingh007/DataMax-DriveShare">Visit Link</a></h3>
-<p>DataMax is a self-hosted file-sharing platform that can be used to securely share files with other users.</p>
-<p>Key Points:</p>
 <ul>
+<li>Self-hostable file-sharing platform that can be used to securely share files with other users.</li>
 <li><strong>JWT</strong> based Auth service with password <strong>hashing</strong>.</li>
 <li><strong>AES</strong> encryption for saved files.</li>
 <li><strong>Tech Stack - Java, TypeScript, HTML, Spring Boot, Angular, MySQL, VSCode, IntelliJ Idea</strong></li>
 </ul>
+<h3>Shmooze | Realtime Chat App <a href="https://shmooze.tanvirsingh.io/signin">Visit Link</a></h3>
+<ul>
+<li>Real-time chat application that can be used as an alternative to apps like WhatsApp and Telegram.</li>
+<li><strong>WebSockets</strong> used for real-time communication.</li>
+<li><strong>JWT</strong> based Auth service with password <strong>hashing</strong>.</li>
+<li><strong>Tech Stack - JavaScript, HTML, ReactJS, NodeJS, ExpressJS, Axios, Socket.io, MongoDB, VSCode, Vercel</strong></li>
+</ul>
 <h3>GNDEC Notes | Course Material Website <a href="https://www.gndecnotes.com/">Visit Link</a></h3>
-<p>Key Points:</p>
 <ul>
-<li>
-<p>Automatic webpages generation using <strong>HUGO</strong>.</p>
-</li>
-<li>
-<p><strong>Tech Stack: HUGO, HTML, CSS, Markdown, GitHub Pages, VSCode</strong></p>
-</li>
+<li><strong>Tech Stack: HUGO, HTML, CSS, Markdown, GitHub Pages, VSCode</strong></li>
 </ul>
-<h2>Achievements</h2>
-<ul>
-<li>Google Code-in Finalist 2019 by OSGeo | <a href="https://codein.withgoogle.com/archive/2019/">Winners List</a></li>
-<li>Google Code-in Finalist 2018 by PostgreSQL | <a href="https://codein.withgoogle.com/archive/2018/">Winners List</a></li>
-</ul>
-<h2>Certifications</h2>
+<h2>Certifications And Achievements</h2>
 <ul>
 <li>AWS Academy Graduate - AWS Academy Introduction to Cloud Semester 2 | <a href="https://www.credly.com/badges/b408c381-10ce-41be-8c22-e0633c33a0ba/public_url">Certificate Link</a></li>
 <li>AWS Academy Graduate - AWS Academy Introduction to Cloud Semester 1 | <a href="https://www.credly.com/badges/47a68ad1-9e88-49bf-bc29-04aacd73ee31/public_url">Certificate Link</a></li>
 <li>AWS Academy Graduate - AWS Academy Cloud Foundations | <a href="https://www.credly.com/badges/e51e16db-cd2d-4f4f-835d-5e42a5f34e98/public_url">Certificate Link</a></li>
-</ul>
-<h2>Education</h2>
-<h3>Bachelor of Technology - Electronics and Communication Engineering <span>(2020-2024)</span></h3>
-<p><strong><em>Guru Nanak Dev Engineering College, Punjab, India</em></strong></p>
-<h3>Class 11th &amp; 12th - Science Major (Physics, Chemistry, Maths) <span>(2018-2020)</span></h3>
-<p><strong><em>Guru Nanak Public School, Punjab, India</em></strong></p></div>
+<li>Google Code-in Finalist 2019 by OSGeo | <a href="https://codein.withgoogle.com/archive/2019/">Winners List</a></li>
+<li>Google Code-in Finalist 2018 by PostgreSQL | <a href="https://codein.withgoogle.com/archive/2018/">Winners List</a></li>
+</ul></div>
 </body>
 </html>
